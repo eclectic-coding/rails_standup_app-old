@@ -1,13 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/webrev/development/tutorials/saas/standup_app/spec/views/activity/feed.html.erb_spec.rb": {
+      "/home/webrev/development/tutorials/saas/standup_app/spec/features/static_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          null,
           1,
           null,
           null
@@ -303,6 +304,50 @@
           null
         ]
       },
+      "/home/webrev/development/tutorials/saas/standup_app/spec/requests/activity_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/webrev/development/tutorials/saas/standup_app/spec/views/activity/feed.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/webrev/development/tutorials/saas/standup_app/spec/views/activity/mine.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
       "/home/webrev/development/tutorials/saas/standup_app/app/controllers/activity_controller.rb": {
         "lines": [
           1,
@@ -321,6 +366,6 @@
         ]
       }
     },
-    "timestamp": 1612202587
+    "timestamp": 1612205927
   }
 }
