@@ -1,14 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/webrev/development/tutorials/saas/standup_app/spec/features/static_spec.rb": {
+      "/home/webrev/development/tutorials/saas/standup_app/spec/views/activity/feed.html.erb_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
-          null,
           1,
           null,
           null
@@ -38,7 +37,6 @@
           null,
           1,
           null,
-          1,
           1,
           1,
           1,
@@ -283,7 +281,11 @@
       "/home/webrev/development/tutorials/saas/standup_app/config/routes.rb": {
         "lines": [
           1,
+          null,
           1,
+          null,
+          1,
+          null,
           1,
           null,
           null
@@ -301,9 +303,12 @@
           null
         ]
       },
-      "/home/webrev/development/tutorials/saas/standup_app/app/controllers/static_controller.rb": {
+      "/home/webrev/development/tutorials/saas/standup_app/app/controllers/activity_controller.rb": {
         "lines": [
           1,
+          1,
+          null,
+          null,
           1,
           null,
           null
@@ -316,6 +321,6 @@
         ]
       }
     },
-    "timestamp": 1612193255
+    "timestamp": 1612202587
   }
 }
