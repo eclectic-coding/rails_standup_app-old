@@ -1,8 +1,6 @@
-# inherit_from: .rubocop_todo.yml
-
 require:
   - rubocop-rails
-  - rubocop-minitest
+  - rubocop-rspec
 
 AllCops:
   Exclude:
@@ -28,9 +26,7 @@ Layout/LineLength:
   Description: 'Checks that line length does not exceed the configured limit.'
   AutoCorrect: true # this is false by default
   Exclude:
-    - docs/Gemfile
     - Gemfile
-
 
 #################### Style ###############################
 
@@ -40,3 +36,27 @@ Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
   ConsistentQuotesInMultiline: true
+
+#################### RSpec cops from rubocop-rspec #######
+# https://github.com/rubocop-hq/rubocop-rspec/blob/master/config/default.yml
+
+RSpec/DescribeClass:
+  Description: Check that the first argument to the top level describe is a constant.
+  Enabled: true
+  StyleGuide: https://www.rubydoc.info/gems/rubocop-rspec/RuboCop/Cop/RSpec/DescribeClass
+  Exclude:
+    - 'spec/requests/**/*'
+    - 'spec/system/**/*'
+    - 'spec/tasks/**/*'
+
+RSpec/ExampleLength:
+  Description: Checks for long examples.
+  Enabled: true
+  Max: 15
+  StyleGuide: https://www.rubydoc.info/gems/rubocop-rspec/RuboCop/Cop/RSpec/ExampleLength
+
+RSpec/MultipleExpectations:
+  Description: Checks if examples contain too many `expect` calls.
+  Enabled: true
+  Max: 8
+  StyleGuide: https://www.rubydoc.info/gems/rubocop-rspec/RuboCop/Cop/RSpec/MultipleExpectations
